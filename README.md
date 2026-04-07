@@ -19,3 +19,21 @@ Tired of clicking through 50 folders just to find that one function you wrote th
 First, install the essentials:
 ```bash
 pip install -r requirements.txt
+```
+Then, just point it at your project:
+```bash
+python renderlocal.py "C:\Users\You\Desktop\MyCoolProject"
+```
+The script will:
+- Scan your files (even if there are 25,000 of them).
+- Filter out the binaries and the bloat.
+- Generate a single .html file in your temp folder.
+- Pop it open in your browser automatically.
+
+## 🛠 Why?
+
+I was working on some local projects and realized I needed the rendergit experience without having to push every tiny change to GitHub first. This is for the builders who live in their local IDEs.
+
+## 🤝 Credits & Thanks
+
+Huge shoutout to Andrej Karpathy for the original rendergit. This script is a love letter to that utility—keeping the "vibe coding" spirit alive while making it work for those of us living in local directories.
